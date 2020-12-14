@@ -45,6 +45,6 @@ public class shooting : MonoBehaviour
 
     private void DestroySelf()
     {                    
-        Destroy(bulletPrefab);
+    
     }
 }
