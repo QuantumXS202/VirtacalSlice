@@ -7,6 +7,7 @@ TagManager:
   - e_b
   - p_b
   - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX

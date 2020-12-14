@@ -37,4 +37,14 @@ public class shooting : MonoBehaviour
         (x < 0) ? Mathf.Floor(x) * bulletSpeed : Mathf.Ceil(x) * bulletSpeed,
         (y < 0) ? Mathf.Floor(y) * bulletSpeed : Mathf.Ceil(y) * bulletSpeed, 0);
     }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+            DestroySelf();
+    }
+
+    private void DestroySelf()
+    {                    
+        Destroy(bulletPrefab);
+    }
 }
