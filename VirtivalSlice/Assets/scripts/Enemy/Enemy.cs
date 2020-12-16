@@ -46,7 +46,7 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        // rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
 
     // Update is called once per frame
@@ -106,10 +106,10 @@ public class Enemy : MonoBehaviour
 
     void Wander()
     {
-        // if(!chooseDir)
-        // {
-        //     StartCoroutine(ChooseDirection());
-        // }
+         if(!chooseDir)
+         {
+             StartCoroutine(ChooseDirection());
+         }
 
         
         if(IsPlayerInRange(range))
