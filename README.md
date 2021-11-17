@@ -5,7 +5,7 @@ Team:
 2. Miguel Hijmans
 
 Duur:
- - 2 Weken
+ - 8 Weken
  
 ## Ontwerp
 Een level van Biding of Isaac nagemaakt
